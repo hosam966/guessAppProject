@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">guessAppProject</string>
+    <string name="guess">خمن</string>
+    <string name="previous">السابق</string>
+    <string name="next">التالي</string>
+    <string name="climb">تسلق الجبال</string>
+
+
+    <string-array name="m_Guess_Array">
+        <item>تسلق الجبال  </item>
+        <item> برمجة تطبيقات </item>
+        <item> الطبخ </item>
+        <item> الذهاب للسينما</item>
+        <item> لعب كره القدم </item>
+         <item> ركوب الدراجه الهوائيه </item>
+         <item>  الغناء</item>
+    </string-array>
+
+</resources>
