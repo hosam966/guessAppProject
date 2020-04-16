@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
         if (mCurrentIndex < 6) {
             ++mCurrentIndex;
         } else {
-           mCurrentIndex = 0;
+            mCurrentIndex = 0;
         }
         showImage();
     }
@@ -60,11 +60,12 @@ public class MainActivity extends AppCompatActivity {
     public void onPreviousClick(View view) {
         if (mCurrentIndex > 0) {
             --mCurrentIndex;
-            showImage();
         } else {
-            mCurrentIndex = 6;
+            mCurrentIndex = 6 ;
         }
+        showImage();
     }
+
 
     @Override
     protected void onSaveInstanceState(Bundle outState) {
